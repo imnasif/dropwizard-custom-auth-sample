@@ -1,0 +1,14 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 9050
+    
+  adminConnectors:
+  - type: http
+    port: 9051
+    
+    
+mongo:
+ url: "mongodb://127.0.0.1"
+ db: "auth_test"
+    
