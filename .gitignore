@@ -1,12 +1,33 @@
+target/
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
-*.jar
 *.war
 *.ear
+*.jar
+*.properties
+*.classpath
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+
+# MAC Specific Files #
+.DS_Store
+
+# Code Coverage Reports
+.jacocoverage/
+
+#intel ij files
+.idea
+*.iml
+/bin/
+
+#eclipse settings
+.settings/
+
+#other artifacts
+coverage-report/
+
+#netbeans files
+nbactions.xml
+
+dependency-reduced-pom.xml
+
+run-server.cmd
